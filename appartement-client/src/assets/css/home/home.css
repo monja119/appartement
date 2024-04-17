@@ -1,0 +1,29 @@
+#srch-content{
+    height: 35px;
+}
+#srch-btn{
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 13px;
+}
+.card-mofonaiana{
+    box-shadow: 1px 1px 12px black;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+    color : white;
+}
+.card-mofonaiana .card-body{
+    overflow: hidden;
+}
+.ref_id{
+    font-size: 10px;
+}
+
+.read-content{
+    min-height: 70vh;
+}
+

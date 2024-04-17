@@ -1,0 +1,13 @@
+#cenhosoa-sary{
+    color: white;
+}
+
+.info{
+    min-height: 15vh;
+    cursor: pointer;
+}
+
+.info-title{
+    margin-top: 10px;
+    font-weight: bolder;
+}

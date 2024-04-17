@@ -1,0 +1,56 @@
+/* import App.css */
+@import url('../../../App.css');
+
+/* blinking animation */
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.header-row{
+    height: 1px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;   
+    justify-content: space-between;
+    padding : 3em 2em 2em 2em;
+    background-color: var(--navbar-border);
+    border-bottom : 1px solid rgba(255 ,255 ,255 ,0.2);
+}
+
+
+.header-row button {
+    transform: scale(0.8);
+}
+
+.pig{
+    height: 95%;
+    width: 80%;
+}
+
+.pics {
+    height: 60%;
+    width: 50%;
+    animation: blink 2s infinite;
+}
+
+.left-bar{
+    height: 100vh;
+}
+
+.top-news{
+    font-size: 15px;
+}
+
+.img-destination{
+    height: 150px;
+    width: 200px;
+}
